@@ -7,8 +7,8 @@ class TestFunction(unittest.TestCase):
         self.assertEqual(result, 5)
         
     def test_add_positive_and_negative_numbers(self):
-        result = add_num(3 , -2)
-        self.assertEqual(result, 1)
+        result = add_num(4 , -2)
+        self.assertEqual(result, 2)
         
     def test_add_decimal_numbers(self):
         result = add_num(3.2 , 2.2)
