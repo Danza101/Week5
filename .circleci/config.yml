@@ -12,7 +12,7 @@ jobs:
           command: pip install -r requirements.txt
       - run: 
           name: Run tests
-          command: pytest
+          command: python Test_Week_5.py
 
 workflows: 
   version: 2
