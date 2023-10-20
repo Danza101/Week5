@@ -1,7 +1,0 @@
-version: 2.1
-
-job:
-  build:
-    docker:
-    -image : Python:3.8
-    steps: 
