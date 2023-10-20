@@ -13,7 +13,7 @@ class TestFunction(unittest.TestCase):
 
     def test_add_decimal_numbers(self):
         result = add_num(3.2, 2.2)
-        self.assertAlmostEqual(result, 5.4, 0.3)
+        self.assertAlmostEqual(result, 1.4, 0.3)
 
 
 if __name__ == '__main__':
